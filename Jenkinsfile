@@ -12,7 +12,7 @@ pipeline {
                 sh 'git --version'
             }
         }
-        stage('install docker') {
+        stage('Install docker') {
             steps {
                 sh 'sudo yum install docker'
             }
